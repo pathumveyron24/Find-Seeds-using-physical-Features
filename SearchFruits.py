@@ -9,6 +9,8 @@ labels = [0, 0, 1, 1, 0, 0, 0, 1]
 
 adoreclassifier = tree.DecisionTreeClassifier()
 
+
+# inserting values to a DecisionTreeClassifier
 adoreclassifier = adoreclassifier.fit(features, labels)
 
 print(adoreclassifier.predict([[142, 1]]))
