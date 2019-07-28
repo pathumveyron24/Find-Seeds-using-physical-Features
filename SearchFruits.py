@@ -1,3 +1,4 @@
+
 from sklearn import tree
 
 # smooth = 1 and bumpy =0
@@ -13,4 +14,9 @@ adoreclassifier = tree.DecisionTreeClassifier()
 # inserting values to a DecisionTreeClassifier
 adoreclassifier = adoreclassifier.fit(features, labels)
 
-print(adoreclassifier.predict([[142, 1]]))
+prediction = adoreclassifier.predict([[142, 1]])
+
+if (prediction == 1):
+    print('Entered dimensions matches to a Orange')
+elif (prediction == 0):
+    print('Entered dimensions matches to a Apple')
