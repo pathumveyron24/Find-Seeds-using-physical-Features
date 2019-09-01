@@ -8,6 +8,7 @@ features = [[140, 1], [130, 1], [150, 0], [170, 0],
 # apple = 0 and oranges = 1
 labels = [0, 0, 1, 1, 0, 0, 0, 1]
 
+# making the custom classifier
 adoreclassifier = tree.DecisionTreeClassifier()
 
 
