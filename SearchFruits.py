@@ -17,6 +17,7 @@ adoreclassifier = adoreclassifier.fit(features, labels)
 
 prediction = adoreclassifier.predict([[142, 1]])
 
+# giving clear outputs to identify
 if (prediction == 1):
     print('Entered dimensions matches to a Orange')
 elif (prediction == 0):
